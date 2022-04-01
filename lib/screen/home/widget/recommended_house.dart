@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:house_rent/model/house.dart';
-import 'package:house_rent/screen/detail/detail.dart';
-import 'package:house_rent/widget/circle_icon_button.dart';
+
+import '../../../model/house.dart';
+import '../../../widget/circle_icon_button.dart';
+import '../../detail/detail.dart';
 
 class RecommendedHouse extends StatelessWidget {
   final recommendedList = House.generateRecommended();
