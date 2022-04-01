@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:house_rent/screen/home/widget/best_offer.dart';
-import 'package:house_rent/screen/home/widget/categories.dart';
-import 'package:house_rent/screen/home/widget/custom_app_bar.dart';
-import 'package:house_rent/screen/home/widget/custom_bottom_navigation_bar.dart';
-import 'package:house_rent/screen/home/widget/recommended_house.dart';
-import 'package:house_rent/screen/home/widget/search_input.dart';
-import 'package:house_rent/screen/home/widget/welcome_text.dart';
+
+import 'widget/best_offer.dart';
+import 'widget/categories.dart';
+import 'widget/custom_app_bar.dart';
+import 'widget/custom_bottom_navigation_bar.dart';
+import 'widget/recommended_house.dart';
+import 'widget/search_input.dart';
+import 'widget/welcome_text.dart';
 
 class HomePage extends StatelessWidget {
   @override
