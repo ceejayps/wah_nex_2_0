@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:house_rent/model/house.dart';
+
+import '../../../model/house.dart';
 
 class ContentIntro extends StatelessWidget {
   final House house;
