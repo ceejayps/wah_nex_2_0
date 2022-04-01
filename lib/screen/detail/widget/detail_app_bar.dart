@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:house_rent/model/house.dart';
+
+import '../../../model/house.dart';
 
 class DetailAppBar extends StatelessWidget {
   final House house;
