@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:house_rent/model/house.dart';
-import 'package:house_rent/widget/circle_icon_button.dart';
+
+import '../../../model/house.dart';
+import '../../../widget/circle_icon_button.dart';
 
 class BestOffer extends StatelessWidget {
   final listOfOffer = House.generateBestOffer();
