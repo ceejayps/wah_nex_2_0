@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:house_rent/model/house.dart';
-import 'package:house_rent/screen/detail/widget/about.dart';
-import 'package:house_rent/screen/detail/widget/content_intro.dart';
-import 'package:house_rent/screen/detail/widget/detail_app_bar.dart';
-import 'package:house_rent/screen/detail/widget/house_info.dart';
+
+import '../../model/house.dart';
+import 'widget/about.dart';
+import 'widget/content_intro.dart';
+import 'widget/detail_app_bar.dart';
+import 'widget/house_info.dart';
 
 class DetailPage extends StatelessWidget {
   final House house;
